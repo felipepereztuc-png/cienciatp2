@@ -169,3 +169,119 @@ body{
     }
 
 }
+.pantalla{
+
+    min-height:100vh;
+
+    padding:40px 20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.tarjeta{
+
+    background:white;
+
+    width:100%;
+
+    max-width:700px;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+    text-align:center;
+
+}
+
+.icono{
+
+    font-size:4rem;
+
+    margin-bottom:15px;
+
+}
+
+.tarjeta h2{
+
+    color:#2e7d32;
+
+    margin-bottom:15px;
+
+}
+
+.frase{
+
+    font-style:italic;
+
+    color:#43a047;
+
+    margin-bottom:20px;
+
+}
+
+.tarjeta p{
+
+    line-height:1.8;
+
+    margin-bottom:20px;
+
+}
+
+.tarjeta img{
+
+    width:100%;
+
+    border-radius:15px;
+
+    margin:20px 0;
+
+}
+
+.video,.siguiente{
+
+    display:block;
+
+    text-decoration:none;
+
+    background:#43a047;
+
+    color:white;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-top:15px;
+
+}
+
+.siguiente{
+
+    background:#2e7d32;
+
+}
+.tarjeta ul{
+
+    text-align:left;
+
+    margin:20px 0;
+
+    padding-left:20px;
+
+}
+
+.tarjeta li{
+
+    margin-bottom:12px;
+
+    line-height:1.7;
+
+}
