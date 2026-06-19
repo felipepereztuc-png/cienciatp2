@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7f2;
+    color:#333;
+}
+
+/* BANNER */
+
+.banner{
+    min-height:100vh;
+    background:url(assets/ChatGPT\ Image\ 17\ jun\ 2026\,\ 13_51_43.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.overlay{
+    min-height:100vh;
+    background:rgba(0,0,0,.55);
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:30px;
+
+    color:white;
+}
+
+.overlay h1{
+
+    font-size:2.5rem;
+
+    margin-bottom:20px;
+
+}
+
+.overlay p{
+
+    font-size:1.2rem;
+
+    margin-bottom:30px;
+
+    line-height:1.6;
+
+}
+
+.boton{
+
+    background:#43a047;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 30px;
+
+    border-radius:30px;
+
+    font-size:1.1rem;
+
+    transition:.3s;
+
+}
+
+.boton:hover{
+
+    background:#2e7d32;
+
+}
+
+/* RECORRIDO */
+
+.recorrido{
+
+    padding:60px 20px;
+
+    text-align:center;
+
+}
+
+.recorrido h2{
+
+    color:#2e7d32;
+
+    margin-bottom:20px;
+
+}
+
+.recorrido p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    margin-bottom:40px;
+
+    line-height:1.8;
+
+}
+
+/* TARJETAS */
+
+.menu{
+
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:20px;
+
+}
+
+.menu a{
+
+    background:white;
+
+    text-decoration:none;
+
+    color:#333;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    font-size:1.2rem;
+
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    transform:scale(1.03);
+
+}
+
+.menu span{
+
+    display:block;
+
+    margin-top:10px;
+
+}
+
+/* CELULAR Y PC */
+
+@media(min-width:768px){
+
+    .menu{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+}
