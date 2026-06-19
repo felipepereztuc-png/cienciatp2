@@ -285,3 +285,64 @@ body{
     line-height:1.7;
 
 }
+/* FOOTER */
+
+footer{
+
+    background:#2e7d32;
+
+    color:white;
+
+    text-align:center;
+
+    padding:50px 20px;
+
+}
+
+.logo{
+
+    width:120px;
+
+    margin-bottom:20px;
+
+}
+
+.footer-contenido h2{
+
+    margin-bottom:20px;
+
+}
+
+.footer-contenido p{
+
+    margin-bottom:15px;
+
+    line-height:1.8;
+
+}
+
+.volver{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    background:white;
+
+    color:#2e7d32;
+
+    text-decoration:none;
+
+    padding:15px 25px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+}
+
+.volver:hover{
+
+    background:#f5f5f5;
+
+}
